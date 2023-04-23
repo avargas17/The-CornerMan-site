@@ -1,20 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar'
-import { Router,Route} from 'react-router-dom'
-import { Routes as Switch } from 'react-router-dom';
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <>
-    <Router>
-      <Navbar />
-    <Switch>
-      <Route path= "/" exact />
-      </Switch>
-      </Router>
-      </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <h1>Welcome to my React App!</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
