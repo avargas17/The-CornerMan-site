@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Hero from "./components/HeroSection"
+import FighterSection from './components/FighterSection';
+import FightCard from './components/FightCard';
 
 class App extends Component {
   render() {
@@ -8,7 +10,8 @@ class App extends Component {
       <div>
         <Navbar />
         <Hero/>
-        <h1>Welcome to my React App!</h1>
+        <FighterSection/>
+        <FightCard/>
       </div>
     );
   }

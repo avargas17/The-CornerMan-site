@@ -1,0 +1,43 @@
+.fighter-section {
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .fighter-section img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fighter-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .fighter-section p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .fighter-section form {
+    margin-top: 20px;
+  }
+  
+  .fighter-section .form-group {
+    margin-bottom: 0;
+  }
+  
+  .fighter-section button {
+    font-size: 24px;
+    padding: 10px 30px;
+    background-color: #0C8054;
+    border-color: #0C8054;
+  }
+  
+  .fighter-section button:hover {
+    background-color: #0C8054;
+    border-color: #0C8054;
+  }

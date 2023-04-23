@@ -1,0 +1,129 @@
+.fight-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+  
+  .fight-card .bout {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .fight-card .fighter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .fight-card .fighter img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .fight-card .fighter .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fight-card .fighter .record {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .fight-card .fighter .vs {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 20px;
+  }
+/*.fight-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  .fight {
+    position: relative;
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .fight:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bout {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .fighter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .record {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+  }
+  
+  .fight:nth-child(1) {
+    background: linear-gradient(
+        to bottom right,
+        #f46197,
+        #ffa010
+      );
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .fight:nth-child(2) {
+    background: linear-gradient(to bottom right, #3d4e81, #5753c9);
+    background-position: center;
+  }
+  
+  .fight:nth-child(3) {
+    background: linear-gradient(to bottom right, #11998e, #38ef7d);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (max-width: 767px) {
+    .fight {
+      width: 100%;
+    }
+  }*/
