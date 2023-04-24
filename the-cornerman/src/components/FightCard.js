@@ -41,22 +41,21 @@ const FightCard = () => {
 
   return (
     <div className="fight-card">
-      {fights.map(fight => (
-        <div key={fight.bout}>
+      {fights.map((fight, index) => (
+        <div className="fight" key={index}>
           <div className="bout">{fight.bout}</div>
           <div className="fighter">
-            <img src={`images/${fight.fighter1.image}`} alt={fight.fighter1.name} />
             <div className="name">{fight.fighter1.name}</div>
-            <div className="record">{fight.fighter1.record}</div>
-            <div className="vs">vs</div>
+            <div className="record">Record: {fight.fighter1.record}</div>
+          </div>
+          <div className="fighter">
             <div className="name">{fight.fighter2.name}</div>
-            <div className="record">{fight.fighter2.record}</div>
-            <img src={`images/${fight.fighter2.image}`} alt={fight.fighter2.name} />
+            <div className="record">Record: {fight.fighter2.record}</div>
           </div>
         </div>
       ))}
     </div>
   );
-
 };
-export default FightCard
+
+export default FightCard;

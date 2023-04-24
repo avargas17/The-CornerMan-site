@@ -1,4 +1,4 @@
-.fight-card {
+/*.fight-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,8 +42,8 @@
     font-size: 20px;
     font-weight: bold;
     margin: 0px 20px;
-  }
-/*.fight-card {
+  }*/
+.fight-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -103,7 +103,7 @@
   .fight:nth-child(1) {
     background: linear-gradient(
         to bottom right,
-        #f46197,
+        #0C8054,
         #ffa010
       );
    
@@ -126,4 +126,4 @@
     .fight {
       width: 100%;
     }
-  }*/
+  }
