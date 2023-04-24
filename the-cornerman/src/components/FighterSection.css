@@ -1,7 +1,7 @@
 .fighter-section {
     background-color: black;
     color: #fff;
-    padding: 50px 0;
+    padding: 50px 40px 100px;
   }
   
   .fighter-section img {
@@ -11,15 +11,26 @@
   }
   
   .fighter-section h2 {
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+
+    font-family: 'Saira';
+    
+  }
+  .fighter-section n1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ 
   }
   
   .fighter-section p {
     font-size: 24px;
     margin-bottom: 10px;
+
   }
   
   .fighter-section form {
@@ -29,15 +40,19 @@
   .fighter-section .form-group {
     margin-bottom: 0;
   }
-  
   .fighter-section button {
-    font-size: 24px;
-    padding: 10px 30px;
     background-color: #0C8054;
-    border-color: #0C8054;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
   
   .fighter-section button:hover {
-    background-color: #0C8054;
-    border-color: #0C8054;
+    background-color: #fff;
+    color: #0C8054;
+    border: 2px solid #0C8054;
   }

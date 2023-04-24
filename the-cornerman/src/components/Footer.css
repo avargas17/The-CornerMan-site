@@ -1,0 +1,122 @@
+/* Footer container */
+.footer-container {
+    background-color: #222222;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  /* About Us column */
+  .about-us {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .about-us-title {
+    font-size: 24px;
+  }
+  
+  .about-us-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Contact Us column */
+  .contact-us {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .contact-us-title {
+    font-size: 24px;
+  }
+  
+  .contact-us-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  
+  .contact-us-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Follow Us column */
+  .follow-us {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .follow-us-title {
+    font-size: 24px;
+  }
+  
+  .social-media-list {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .social-media-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Custom styles */
+  
+  /* Gradient background */
+  .footer-container {
+    background: linear-gradient(45deg, #333333, #222222);
+  }
+  
+  /* About Us section background */
+  .about-us {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Contact Us section background */
+  .contact-us {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Follow Us section background */
+  .follow-us {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Social media icons */
+  .social-media-item {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+  
+  .social-media-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-media-item i {
+    font-size: 20px;
+    color: #222222;
+  }

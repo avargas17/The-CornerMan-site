@@ -4,6 +4,7 @@ import Hero from "./components/HeroSection"
 import FighterSection from './components/FighterSection';
 import FightCard from './components/FightCard';
 
+
 class App extends Component {
   render() {
     return (
