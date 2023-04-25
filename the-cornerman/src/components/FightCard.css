@@ -105,19 +105,19 @@
   }
   
   .fight:nth-child(1) {
-    background: linear-gradient(to bottom right, #11998e, #38ef7d);
+    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
    
     background-size: cover;
     background-position: center;
   }
   
   .fight:nth-child(2) {
-    background: linear-gradient(to bottom right, #11998e, #38ef7d);
+    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
     background-position: center;
   }
   
   .fight:nth-child(3) {
-    background: linear-gradient(to bottom right, #11998e, #38ef7d);
+    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
     background-size: cover;
     background-position: center;
   }

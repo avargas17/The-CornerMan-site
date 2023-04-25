@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="#" className="logo">The Cornerman</a>
+      <a href="#" className="logo">Corner Man</a>
       <ul className="menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>

@@ -1,12 +1,15 @@
 .hero {
-    background: black center/cover no-repeat fixed;  /*url('../public/images/MaxvsArnols.') center/cover no-repeat fixed;*/
-    height: 100vh;
+   /*url('../public/images/MaxvsArnols.') center/cover no-repeat fixed;*/
+    height: 90vh;
+    width:100%;
     display: flex;
+    background-attachment: static;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
+    object-fit: contain;
   }
   
   .hero h1 {

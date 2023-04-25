@@ -24,12 +24,14 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Saira';
  
   }
   
   .fighter-section p {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: 'Saira';
 
   }
   
