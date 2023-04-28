@@ -1,5 +1,6 @@
 import React from 'react';
 import "./FighterSection.css"
+import Fighter from "../images/Conor.jpg"
 
 function FighterSection() {
   return (
@@ -7,7 +8,8 @@ function FighterSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-4">
-            <img src="./images/MvsA.jpeg" alt="Fighter Image" />
+            <h1> Fighter of the week </h1>
+            <img src= {Fighter} alt="Fighter Image" />
           </div>
           <div className="col-md-8">
             <h2>Conor McGregor</h2>
