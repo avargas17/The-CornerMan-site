@@ -8,7 +8,7 @@ function FighterSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-4">
-            <h1> Fighter of the week </h1>
+            <h1> *Fighter of the week* </h1>
             <img src= {Fighter} alt="Fighter Image" />
           </div>
           <div className="col-md-8">

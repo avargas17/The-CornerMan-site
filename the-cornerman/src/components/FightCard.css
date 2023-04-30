@@ -81,7 +81,7 @@
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #000;
   }
   
   .fighter {
@@ -94,30 +94,30 @@
     margin: 10px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
   }
   
   .record {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: normal;
-    color: #666;
+    color: #fff;
   }
   
   .fight:nth-child(1) {
-    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
+    background: linear-gradient(to bottom, #0C8054, #000);
    
     background-size: cover;
     background-position: center;
   }
   
   .fight:nth-child(2) {
-    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
+    background: linear-gradient(to bottom, #0C8054, #000);
     background-position: center;
   }
   
   .fight:nth-child(3) {
-    background: linear-gradient(to bottom right, #0C8054, #38ef7d);
+    background: linear-gradient(to bottom, #0C8054, #000);
     background-size: cover;
     background-position: center;
   }
