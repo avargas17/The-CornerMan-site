@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from "./components/HeroSection"
 import FighterSection from './components/FighterSection';
 import FightCard from './components/FightCard';
+import News from './components/News'
 
 
 class App extends Component {
@@ -11,8 +12,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Hero/>
-        <FighterSection/>
-        <FightCard/>
+        <News/>
       </div>
     );
   }
