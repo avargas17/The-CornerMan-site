@@ -12,7 +12,6 @@
   max-width: 40%;
   border-radius: 10%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
- /* set the width of the image to 40% of the container */
   margin-right: 40px;
   float: right; /* add some margin to the right of the image */
 }

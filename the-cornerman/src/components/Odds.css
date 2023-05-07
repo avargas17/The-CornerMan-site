@@ -1,0 +1,56 @@
+.odds-container {
+    margin-top: 2rem;
+    background-color: #FFF;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .odds-header {
+     font-size: 3rem;
+     text-align: center;
+     font-family: 'Saira';
+     color: #0C8054;
+   }
+   
+   .odds-card-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:space-around;
+   }
+   
+   .odds-card {
+     border-radius: 30px;
+     border: #0C8054 solid 2px;
+     width: 30%;
+     margin-bottom: 2rem;
+     box-shadow: 0px 1px 5px #fff;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+   }
+   
+   .odds-card-title {
+     font-size: 1.5rem;
+     margin-bottom: 1rem;    
+   }
+   
+   .odds-card-description {
+     margin-bottom: 1rem;
+     font-size: 1.2rem;
+     line-height: 1.5;
+   }
+   
+   .odds-card-link {
+     display: block;
+     text-align: center;
+     font-weight: bold;
+     color: #0C8054;
+     margin-top: 1rem;
+   }
+ 

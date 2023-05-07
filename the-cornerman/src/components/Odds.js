@@ -12,7 +12,7 @@ function Odds() {
     const fetchOdds = async () => {
       try {
         const response = await axios.get(
-          'https://api.sportsdata.io/v3/mma/scores/json/Fighters?key=5b0e1949afb946ca8072606ddc5149a9'
+          ''
         );
         setOdds(response.data);
         setLoading(false);
