@@ -1,7 +1,11 @@
 /* News Section */
 .news-container {
-   margin-top: 0;
-   background-color: FFF;
+    background-color: black;
+    color: #fff;
+    padding: 40px 40px 100px;
+    display: flex; /* set the display to flex */
+    flex-wrap: wrap; /* allow the items to wrap to a new line if needed */
+    align-items: center; /* vertically center the items */
   }
   
   .news-header {
@@ -21,11 +25,12 @@
     border-radius: 30px;
     border: #0C8054 solid 2px;
     width: 30%;
+    height:10%;
     margin-bottom: 2rem;
     box-shadow: 0px 1px 5px #fff;
     overflow: hidden;
-    
   }
+  
   
   .news-card-image {
     width: 100%;

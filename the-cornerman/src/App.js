@@ -4,6 +4,7 @@ import Hero from "./components/HeroSection"
 import FighterSection from './components/FighterSection';
 import FightCard from './components/FightCard';
 import News from './components/News'
+import Odds from './components/Odds'
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Navbar />
         <Hero/>
         <News/>
+        <Odds/>
       </div>
     );
   }

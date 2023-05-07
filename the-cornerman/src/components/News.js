@@ -12,7 +12,7 @@ function News() {
 axios
   .get(' https://newsapi.org/v2/everything?q=MMA&apiKey=2605a4e0d70b4450bf65f796c543f3f8')
   .then(response => {
-    setArticles(response.data.articles.slice(0, 3));
+    setArticles(response.data.articles.slice(0, 5));
   })
   .catch(error => {
     console.log(error);
