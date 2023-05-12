@@ -3,18 +3,19 @@ import Navbar from './components/Navbar';
 import Hero from "./components/HeroSection"
 import FighterSection from './components/FighterSection';
 import FightCard from './components/FightCard';
+import News from './components/News'
+import Odds from './components/Odds'
 
 
-class UFCMain extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Hero/>
-        <FighterSection/>
-        <FightCard/>
+        <News/>
       </div>
     );
   }
 }
-
-export default UFCMain;
+export default Home

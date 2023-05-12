@@ -7,8 +7,6 @@ function News() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    // Fetch news articles using the NewsAPI
-
 axios
   .get(' https://newsapi.org/v2/everything?q=MMA&apiKey=2605a4e0d70b4450bf65f796c543f3f8')
   .then(response => {
@@ -28,7 +26,6 @@ axios
             <img className="news-card-image" src={article.urlToImage} alt="" />
             <div className="news-card-body">
               <h2 className="news-card-title">{article.title}</h2>
-              <p className="news-card-description">{article.description}</p>
               <a className="news-card-link" href={article.url}>Read More</a>
             </div>
           </div>
