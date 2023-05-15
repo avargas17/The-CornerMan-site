@@ -1,0 +1,89 @@
+.event-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .event-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .event-details {
+    flex-basis: 33.33%;
+    padding: 10px;
+  }
+  
+  .event-detail-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .event-detail-value {
+    font-size: 18px;
+  }
+  
+  .event-fights-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-fight {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .event-fighter-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33.33%;
+  }
+  
+  .event-fighter-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .event-fighter-record {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .event-fight-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33.33%;
+  }
+  
+  .event-fight-vs {
+    font-size: 24px;
+    margin: 0 20px;
+  }
+  
+  .event-fight-weight-class {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .event-fight-round {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  

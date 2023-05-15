@@ -5,6 +5,8 @@ import FighterSection from './components/FighterSection';
 import FightCard from './components/FightCard';
 import News from './components/News'
 import Odds from './components/Odds'
+import Schedule from './components/FightSchedule'
+import Event from './components/Event'
 
 
 class Home extends Component {
@@ -14,6 +16,7 @@ class Home extends Component {
         <Navbar />
         <Hero/>
         <News/>
+        <Event/>
       </div>
     );
   }
