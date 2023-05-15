@@ -15,8 +15,10 @@ class Home extends Component {
       <div>
         <Navbar />
         <Hero/>
+        <FighterSection/>
         <News/>
         <Event/>
+        <Odds/>
       </div>
     );
   }

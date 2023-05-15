@@ -1,83 +1,28 @@
-.fighter-section {
-  background-color: black;
-  color: #fff;
-  padding: 40px 40px 100px;
-  display: flex; /* set the display to flex */
-  flex-wrap: wrap; /* allow the items to wrap to a new line if needed */
-  align-items: center; /* vertically center the items */
-  
-}
-
-.fighter-section img {
-  max-width: 40%;
-  border-radius: 10%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-right: 40px;
-  float: right; /* add some margin to the right of the image */
-}
-.fighter-section h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  font-family: "Saira";
-  float:inherit;
-  letter-spacing: 2px;
-  
-}
-.fighter-section h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.fighter-info {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border: 8px solid #0C8054;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: 'Saira';
 }
 
-.fighter-section n1 {
-  font-size: 18px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: 'Saira';
-}
-
-.fighter-section p {
+.fighter-info h2 {
   font-size: 24px;
+  font-weight: bold;
   margin-bottom: 10px;
-  font-family: 'Saira';
-  flex-basis: 60%; /* set the width of the text to 60% of the container */
 }
 
-.fighter-section form {
+.fighter-info p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.loading {
+  font-size: 16px;
   margin-top: 20px;
+  color: #999;
 }
 
-.fighter-section .form-group {
-  margin-bottom: 0;
-}
-
-.fighter-section button {
-  background-color: #0C8054;
-  color: #fff;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 5px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.fighter-section button:hover {
-  background-color: #fff;
-  color: #0C8054;
-  border: 2px solid #0C8054;
-}
-.fighter-section::before {
-  content: '';
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  border-left: 1px solid white;
-  transform: translateX(-50%);
-}

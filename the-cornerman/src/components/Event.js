@@ -10,7 +10,7 @@ function Event() {
     const fetchEvent = async () => {
       try {
         const response = await axios.get(
-          'https://api.sportsdata.io/v3/mma/scores/json/Event/51?key=5b0e1949afb946ca8072606ddc5149a9'
+          ' https://api.the-odds-api.com/v4/sports/MMA/odds/?apiKey=77ac5217d4649f080122687ed45187d0&regions=us&markets=h2h,spreads&oddsFormat=american'
         );
         setEvent(response.data);
         setLoading(false);

@@ -3,7 +3,7 @@ import "./Odds.css";
 import axios from 'axios'
 
 
-const API_KEY = "5b0e1949afb946ca8072606ddc5149a9";
+/*const API_KEY = "5b0e1949afb946ca8072606ddc5149a9";*/
 function Odds() {
   const [odds, setOdds] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -26,12 +26,12 @@ function Odds() {
 
   return (
     <div className="odds-container">
-      <h2 className="odds-header">Upcoming MMA Betting Odds</h2>
+      <h2 className="odds-header">Upcoming UFC Events</h2>
       {loading ? (
         <p>Loading odds...</p>
       ) : (
         <div className="odds-card-container">
-          {odds.slice(0, 8).map((odd) => (
+          {odds.slice(17, 26).map((odd) => (
             <div key={odd.FightId} className="odds-card">
               <h3 className="odds-card-title">{odd.Name}</h3>
             </div>

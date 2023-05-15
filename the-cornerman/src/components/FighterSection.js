@@ -1,30 +1,41 @@
-import React from 'react';
-import "./FighterSection.css"
-import Fighter from "../images/Conor.jpg"
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './FighterSection.css';
 
-function FighterSection() {
+const FighterSection = () => {
+  const [fighter, setFighter] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          'https://api.sportsdata.io/v3/mma/scores/json/Fighter/140000003?key=5b0e1949afb946ca8072606ddc5149a9'
+        );
+        setFighter(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
-    <section className="fighter-section">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-md-4">
-            <h1> *Fighter of the week* </h1>
-            <img src= {Fighter} alt="Fighter Image" />
-          </div>
-          <div className="col-md-8">
-            <h2>Conor McGregor</h2>
-            <p>Record: 22-5-0 (UFC)</p>
-            <p>Nickname: The Notorious</p>
-            <form>
-              <div className="form-group">
-                <button type="button" className="btn btn-primary">Add to Favorites</button>
-              </div>
-            </form>
-          </div>
+    <div className="fighter-info"> 
+      {fighter ? (
+        <div>
+          <h2 className="fighter-name">{fighter.FirstName} {fighter.LastName}</h2> {/* Apply a class to the fighter name */}
+          <p className="wins">Wins: {fighter.Wins}</p> {/* Apply a class to the wins */}
+          <p className="losses">Losses: {fighter.Losses}</p>
+          <p className="Draws">Draws: {fighter.Draws}</p>   
+           <p className="Age">Age: {fighter.Age}</p> 
+          {/* Add more fighter information as needed */}
         </div>
-      </div>
-    </section>
+      ) : (
+        <p className="loading">Loading fighter information...</p>
+      )}
+    </div>
   );
-}
+};
 
-export default FighterSection;
+export default FighterSection ;
