@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './FighterSection.css';
+import Fighter from "../images/Conor.jpg"
 
 const FighterSection = () => {
   const [fighter, setFighter] = useState(null);
@@ -21,15 +22,22 @@ const FighterSection = () => {
   }, []);
 
   return (
-    <div className="fighter-info"> 
+    <div className="fighter-info">
       {fighter ? (
         <div>
-          <h2 className="fighter-name">{fighter.FirstName} {fighter.LastName}</h2> {/* Apply a class to the fighter name */}
-          <p className="wins">Wins: {fighter.Wins}</p> {/* Apply a class to the wins */}
-          <p className="losses">Losses: {fighter.Losses}</p>
-          <p className="Draws">Draws: {fighter.Draws}</p>   
-           <p className="Age">Age: {fighter.Age}</p> 
-          {/* Add more fighter information as needed */}
+          <div className="fighter-details">
+            <h2 className="fighter-name">{fighter.FirstName} {fighter.LastName}</h2>
+            <div className="fighter-stats">
+              <p className="wins">Wins: {fighter.Wins}</p>
+              <p className="losses">Losses: {fighter.Losses}</p>
+              <p className="draws">Draws: {fighter.Draws}</p>
+              <p className="ko-tko">KO/TKO: {fighter.TechnicalKnockouts}</p>
+              <p className="sub">Submissions: {fighter.Submissions}</p>
+            </div>
+          </div>
+          <div className="fighter-image">
+            <img src={Fighter} alt="Fighter" />
+          </div>
         </div>
       ) : (
         <p className="loading">Loading fighter information...</p>
@@ -38,4 +46,4 @@ const FighterSection = () => {
   );
 };
 
-export default FighterSection ;
+export default FighterSection;

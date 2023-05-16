@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Event.css';
+import '../components/Event.css';
 
-function Event() {
+function UFCEvent() {
   const [event, setEvent] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -33,5 +33,4 @@ function Event() {
   );
 }
 
-export default Event;
-
+export default UFCEvent;

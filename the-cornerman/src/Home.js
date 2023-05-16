@@ -13,10 +13,10 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <Hero/>
         <FighterSection/>
         <News/>
+        <Schedule/>
         <Event/>
         <Odds/>
       </div>

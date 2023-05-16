@@ -1,49 +1,47 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './FightSchedule.css';
+import React, { useState, useEffect } from "react";
+import "./FightSchedule.css";
+import axios from 'axios'
 
-function FightSchedule() {
-  const [fights, setFights] = useState([]);
+
+/*const API_KEY = "5b0e1949afb946ca8072606ddc5149a9";*/
+function Schedule() {
+  const [odds, setOdds] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchFights = async () => {
+    const fetchOdds = async () => {
       try {
         const response = await axios.get(
           'https://api.sportsdata.io/v3/mma/scores/json/Schedule/UFC/2023?key=5b0e1949afb946ca8072606ddc5149a9'
         );
-        setFights(response.data);
+        setOdds(response.data);
         setLoading(false);
       } catch (error) {
         console.error(error);
       }
     };
-    fetchFights();
+
+    fetchOdds();
   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
   return (
-    <div className="fight-schedule-container">
-      <h1 className="title">Upcoming Fights</h1>
-      <div className="fight-grid">
-        {fights.slice(0, 6).map((fight) => (
-          <div key={fight.FightId} className="fight-container">
-            <div className="fight-details">
-              <span className="event-name">{fight.EventName}</span>
-              <span className="fighter-names">
-                {fight.Fighter1} vs {fight.Fighter2}
-              </span>
-              <span className="weight-class">{fight.WeightClass}</span>
+    <div className="Schedule-container">
+      <h2 className="Schedule-header">Upcoming UFC Events</h2>
+      {loading ? (
+        <p>Loading odds...</p>
+      ) : (
+        <div className="Schedule-card-container">
+          {odds.slice(17, 26).map((odd) => (
+            <div key={odd.FightId} className="Schedule-card">
+              <h3 className="Schedule-card-title">{odd.Name}</h3>
+              <p className="Schedule-card-description">{odd.Day}</p>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
-export default FightSchedule;
+export default Schedule;
 

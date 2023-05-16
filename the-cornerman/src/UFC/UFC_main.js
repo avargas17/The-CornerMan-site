@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
-import Hero from "./components/HeroSection"
-import FighterSection from './components/FighterSection';
-import FightCard from './components/FightCard';
+import Navbar from '../components/Navbar';
+import Hero from "../components/HeroSection"
+import FighterSection from '../components/FighterSection';
+import FightCard from '../components/FightCard';
+import Event from "./UFC-event"
 
 
 class UFCMain extends Component {
@@ -10,8 +11,9 @@ class UFCMain extends Component {
     return (
       <div>
         <Hero/>
+        <Event/>
         <FighterSection/>
-        <FightCard/>
+
       </div>
     );
   }
