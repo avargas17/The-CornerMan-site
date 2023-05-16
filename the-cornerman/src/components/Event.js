@@ -25,9 +25,7 @@ function Event() {
   return (
     <div className="event-container">
         <>
-        <h1 className="event-title"> Next Event:</h1>
-          <h1 className="event-title"> {event.Name}</h1>
-          <h1 className="event-details"> Date: {event.DateTime}</h1>
+          <h1 className="event-title"> ***** {event.Name} *****</h1>
         </>
     </div>
   );

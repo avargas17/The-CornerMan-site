@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './FighterSection.css';
+import '../components/FighterSection.css';
 import Fighter from "../images/Conor.jpg"
 
 const FighterSection = () => {
@@ -10,7 +10,7 @@ const FighterSection = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          'https://api.sportsdata.io/v3/mma/scores/json/Fighter/140000026?key=5b0e1949afb946ca8072606ddc5149a9'
+          'https://api.sportsdata.io/v3/mma/scores/json/Fighter/140000003?key=5b0e1949afb946ca8072606ddc5149a9'
         );
         setFighter(response.data);
       } catch (error) {
@@ -26,13 +26,13 @@ const FighterSection = () => {
       {fighter ? (
         <div>
           <div className="fighter-details">
-            <h2 className="fighter-name">{fighter.FirstName} {fighter.LastName} "Triple C"</h2>
+            <h2 className="fighter-name">Jonathan Haggerty "The General"</h2>
             <div className="fighter-stats">
-              <p className="wins">Wins: {fighter.Wins}</p>
-              <p className="losses">Losses: {fighter.Losses}</p>
-              <p className="draws">Draws: {fighter.Draws}</p>
-              <p className="ko-tko">KO/TKO: {fighter.TechnicalKnockouts}</p>
-              <p className="sub">Submissions: {fighter.Submissions}</p>
+              <p className="wins">Wins: 6 </p>
+              <p className="losses">Losses: 2 </p>
+              <p className="draws">Draws: 0 </p>
+              <p className="ko-tko">KO/TKO: 1 </p>
+              <p className="sub">Submissions: 0 </p>
             </div>
           </div>
         </div>

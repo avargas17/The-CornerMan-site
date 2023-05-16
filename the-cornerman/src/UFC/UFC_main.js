@@ -4,6 +4,8 @@ import Hero from "../components/HeroSection"
 import FighterSection from '../components/FighterSection';
 import FightCard from '../components/FightCard';
 import Event from "./UFC-event"
+import Footer from '../components/Footer'
+import Schedule from '../components/FightSchedule'
 
 
 class UFCMain extends Component {
@@ -13,7 +15,8 @@ class UFCMain extends Component {
         <Hero/>
         <Event/>
         <FighterSection/>
-
+        <Schedule/>
+        <Footer/>
       </div>
     );
   }

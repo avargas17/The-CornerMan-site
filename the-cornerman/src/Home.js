@@ -7,6 +7,7 @@ import News from './components/News'
 import Odds from './components/Odds'
 import Schedule from './components/FightSchedule'
 import Event from './components/Event'
+import Footer from './components/Footer'
 
 
 class Home extends Component {
@@ -14,11 +15,9 @@ class Home extends Component {
     return (
       <div>
         <Hero/>
-        <FighterSection/>
+         <Event/>
         <News/>
-        <Schedule/>
-        <Event/>
-        <Odds/>
+        <Footer/>
       </div>
     );
   }

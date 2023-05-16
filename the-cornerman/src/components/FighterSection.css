@@ -1,34 +1,42 @@
 .fighter-info {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 15vh;
   padding: 10px;
-  background-color: #0C8054;
+  background-color: black;
+  border: 5px solid #0C8054;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: 'Saira';
-  color: #fff;
+  color: white;
 }
 
 .fighter-details {
-  flex: 1;
+  align-self: center;
 }
 
 .fighter-details h2 {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 6px;
-  margin-top: 50px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+.fighter-nickname h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 10px;
 }
 
 .fighter-stats {
   display: flex;
   flex-wrap: nowrap;
-  padding-left: 40;
+  
 }
 
 .fighter-stats p {
   margin-right: 20px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .fighter-image {
@@ -39,6 +47,7 @@
   height: 100px;
   border-radius: 20%;
   overflow: hidden;
+
 
 }
 
