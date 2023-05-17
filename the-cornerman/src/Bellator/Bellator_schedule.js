@@ -19,6 +19,7 @@ function Schedule() {
       };
       fetchOdds();
     }, []);
+    return(
     <div className="Schedule-container">
     <h2 className="Schedule-header">Upcoming Bellator Events</h2>
     {loading ? (
@@ -36,6 +37,6 @@ function Schedule() {
       </div>
     )}
   </div>
-;
+    );
 }
 export default Schedule;
