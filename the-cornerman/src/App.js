@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import UFC from './UFC/UFC_main';
 import Home from './Home'
 import ONE from './ONE-FC/One_main'
+import Bellator from './Bellator/Bellator_main'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path = "/UFC" element={<UFC/>}/>
         <Route path = "/ONE" element={<ONE/>}/>
+        <Route path = "/Bellator" element={<Bellator/>}/>
       </Routes>
     </Router>
   );

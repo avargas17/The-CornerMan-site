@@ -1,6 +1,6 @@
 .hero {
    background: url("../images/RDA.jpg") center/cover no-repeat fixed;
-    height: 90vh;
+    height: 70vh;
     width:100%;
     display: flex;
     background-attachment: fixed;
