@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
-import Hero from "./UFC-hero"
+import Hero from "../components/HeroSection"
 import FighterSection from '../components/FighterSection';
 import FightCard from '../components/FightCard';
 import Event from "./UFC-event"
 import Footer from '../components/Footer'
-import Schedule from './UFC-schedule'
-import Odds from './UFC_odds'
+import Schedule from '../components/FightSchedule'
 
 
 class UFCMain extends Component {
@@ -17,7 +16,6 @@ class UFCMain extends Component {
         <Event/>
         <FighterSection/>
         <Schedule/>
-        <Odds/>
         <Footer/>
       </div>
     );

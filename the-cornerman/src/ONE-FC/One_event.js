@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../components/Event.css';
 
-function OneEvent() {
+function UFCEvent() {
   const [event, setEvent] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -31,4 +31,4 @@ function OneEvent() {
   );
 }
 
-export default OneEvent;
+export default UFCEvent;

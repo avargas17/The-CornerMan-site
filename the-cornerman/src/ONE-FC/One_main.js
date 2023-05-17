@@ -4,7 +4,6 @@ import Hero from "./One_hero"
 import FighterSection from './One_fighter'
 import Event from "./One_event"
 import Footer from '../components/Footer'
-import Schedule from './One_schedule'
 
 
 class OneMain extends Component {
@@ -14,7 +13,6 @@ class OneMain extends Component {
         <Hero/>
         <Event/>
         <FighterSection/>
-        <Schedule/>
         <Footer/>
       </div>
     );
