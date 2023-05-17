@@ -1,4 +1,4 @@
-/*.odds-container {
+.odds-container {
     margin-top: 2rem;
     background-color: #FFF;
     width: 100%;
@@ -51,46 +51,5 @@
      font-weight: bold;
      color: #0C8054;
      margin-top: 1rem;
-   }*/
-   .betting-odds-container {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
-    margin: 0 auto;
-  }
-  
-  .heading {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .event {
-    margin-bottom: 20px;
-  }
-  
-  .odds {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .bookmaker {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  .odds-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .home-odds, .away-odds {
-    margin: 0;
-    color: #666;
-  }
-  
-  
+   }
+ 
