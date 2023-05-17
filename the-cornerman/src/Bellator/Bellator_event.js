@@ -25,7 +25,7 @@ function OneEvent() {
   return (
     <div className="event-container">
         <>
-          <h1 className="event-title"> ***** One Friday Fights 17 *****</h1>
+          <h1 className="event-title"> ***** Bellator 297 Nemkov vs Romero *****</h1>
         </>
     </div>
   );

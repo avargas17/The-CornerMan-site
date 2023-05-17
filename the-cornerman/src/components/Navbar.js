@@ -13,7 +13,7 @@ function Navbar() {
         <li><a href="/">HOME</a></li>
         <li><a href="/UFC">UFC</a></li>
         <li><a href="/ONE">ONE</a></li>
-        <li><a href="#">BELLATOR</a></li>
+        <li><a href="/Bellator">BELLATOR</a></li>
       </ul>
     </nav>
   );

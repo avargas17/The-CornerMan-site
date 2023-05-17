@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
-import Hero from "./One_hero"
-import FighterSection from './One_fighter'
-import Event from "./One_event"
+import Hero from './Bellator_hero'
+import FighterSection from './Bellator_fighter'
+import Event from "./Bellator_event"
 import Footer from '../components/Footer'
-import Schedule from './One_schedule'
+import Schedule from './Bellator_schedule'
 
 
 class OneMain extends Component {
