@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '../images/ONEFN11.jpg';
+import backgroundImage from '../images/bellator-297.jpg';
 import '../components/HeroSection.css';
 
 function Hero() {
@@ -9,9 +9,6 @@ function Hero() {
 
   return (
     <section className="hero" style={heroStyle}>
-      <h1>Fight News</h1>
-      <p>Get the best MMA news in the business from your CornerMan</p>
-      <button>Get Started</button>
     </section>
   );
 }
