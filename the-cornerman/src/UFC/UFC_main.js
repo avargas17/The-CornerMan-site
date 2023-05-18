@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
-import Hero from "../components/HeroSection"
+import Hero from "./UFC-hero"
 import FighterSection from '../components/FighterSection';
 import FightCard from '../components/FightCard';
 import Event from "./UFC-event"

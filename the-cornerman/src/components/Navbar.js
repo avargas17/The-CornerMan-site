@@ -9,7 +9,7 @@ import Home from '../Home'
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/" className="logo">Corner Man</a>
+      <a href="/" className="logo">CM</a>
       <ul className="menu">
         <li><a href="/">HOME</a></li>
         <li><a href="/UFC">UFC</a></li>
