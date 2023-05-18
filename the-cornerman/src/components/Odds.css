@@ -1,4 +1,4 @@
-.odds-container {
+/*.odds-container {
     margin-top: 2rem;
     background-color: #FFF;
     width: 100%;
@@ -52,4 +52,43 @@
      color: #0C8054;
      margin-top: 1rem;
    }
- 
+ */
+ .mma-odds-container {
+  background-color: white;
+  padding: 20px;
+  border: #0C8054 solid 8px;
+}
+
+.mma-odds-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Saira';
+  
+}
+
+.mma-odds-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mma-odds-table th,
+.mma-odds-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.mma-odds-table th {
+  background-color: #f2f2f2;
+  color: #0C8054;
+  font-family: 'Saira';
+}
+
+.mma-odds-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mma-odds-table tr:hover {
+  background-color: #e9e9e9;
+}
+

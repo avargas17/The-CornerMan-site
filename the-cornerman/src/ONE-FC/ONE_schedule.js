@@ -26,16 +26,16 @@ function Schedule() {
         ) : (
           <div className="Schedule-card-container">
         <div className="Schedule-card">
-        <h3 className="Schedule-card-title">ONE Friday Fights 17 </h3>
-        <p className="Schedule-card-description">Random date </p>
+        <h3 className="Schedule-card-title">ONE Friday Fights 17: Bangkok </h3>
+        <p className="Schedule-card-description"> 5 - 19 - 2023 </p>
       </div>
       <div className="Schedule-card">
         <h3 className="Schedule-card-title">ONE Fight Night 11: Eblem vs. Meshikov </h3>
-        <p className="Schedule-card-description">Random date </p>
+        <p className="Schedule-card-description"> 6 - 19 - 2023  </p>
       </div>
       <div className="Schedule-card">
         <h3 className="Schedule-card-title">ONE Fight Nigth 12: Bangkok</h3>
-        <p className="Schedule-card-description">Random date </p>
+        <p className="Schedule-card-description"> 7 - 15 - 2023 </p>
       </div>
   </div>
 )}

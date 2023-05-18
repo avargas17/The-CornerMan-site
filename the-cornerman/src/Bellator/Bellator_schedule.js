@@ -26,13 +26,13 @@ function Schedule() {
       <p>Loading odds...</p>
     ) : (
       <div className="Schedule-card-container">
-              <div className="Schedule-card">
-            <h3 className="Schedule-card-title">Bellator Dublin: Eblen vs. Edwards </h3>
-            <p className="Schedule-card-description"> September 23rd 2023 </p>
-          </div>
           <div className="Schedule-card">
             <h3 className="Schedule-card-title">Bellator 297: Nemkov vs. Romero </h3>
-            <p className="Schedule-card-description">June 16th 2023</p>
+            <p className="Schedule-card-description"> 6 - 16 - 2023</p>
+          </div>
+              <div className="Schedule-card">
+            <h3 className="Schedule-card-title">Bellator Dublin: Eblen vs. Edwards </h3>
+            <p className="Schedule-card-description"> 9 - 23 - 2023 </p>
           </div>
       </div>
     )}

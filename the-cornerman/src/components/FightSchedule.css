@@ -36,13 +36,15 @@
  
  .Schedule-card-title {
    font-size: 1.5rem;
-   margin-bottom: 1rem;    
+   margin-bottom: 1rem; 
+   font-family: 'Saira';   
  }
  
  .Schedule-card-description {
    margin-bottom: 1rem;
    font-size: 1.2rem;
    line-height: 1.5;
+   font-family: 'Saira';
  }
  
  .Schedule-card-link {

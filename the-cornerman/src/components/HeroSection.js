@@ -4,9 +4,8 @@ import "./HeroSection.css"
 function Hero() {
   return (
     <section className="hero">
-      <h1>Fight News</h1>
-      <p>Get the best MMA news in the business from your CornerMan</p>
-      <button>Get Started</button>
+      <h1> Get Fight Ready</h1>
+      <p> With the best MMA data in the business from your CornerMan</p>
     </section>
   );
 }

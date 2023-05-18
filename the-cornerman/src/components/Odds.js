@@ -4,7 +4,7 @@ import axios from 'axios'
 
 
 /*const API_KEY = "5b0e1949afb946ca8072606ddc5149a9";*/
-function Odds() {
+/*function Odds() {
   const [odds, setOdds] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -38,4 +38,41 @@ function Odds() {
   );
 }
 
-export default Odds;
+export default Odds;*/
+
+
+const MMAOdds = () => {
+  // Sample odds data
+  const odds = [
+    { fighter: 'Mackenzie Dern', odds: '-170' },
+    { fighter: 'Angela Hill', odds: '+190' },
+    { fighter: 'Emily Ducote', odds: '+135' },
+    { fighter: 'Loopy Godinez', odds: '-155' },
+    { fighter: 'Andre Fialho', odds: '+190' },
+    { fighter: 'Joaquin Buckley', odds: '+250' },
+  ];
+
+  return (
+    <div className="mma-odds-container">
+      <h2>MMA Betting Odds</h2>
+      <table className="mma-odds-table">
+        <thead>
+          <tr>
+            <th>Fighter</th>
+            <th>Odds</th>
+          </tr>
+        </thead>
+        <tbody>
+          {odds.map((odd, index) => (
+            <tr key={index}>
+              <td>{odd.fighter}</td>
+              <td>{odd.odds}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default MMAOdds;

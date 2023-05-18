@@ -10,12 +10,13 @@ import Event from './components/Event'
 import Footer from './components/Footer'
 
 
+
 class Home extends Component {
   render() {
     return (
       <div>
         <Hero/>
-        <Event/>
+        <Odds/>
         <News/>
         <Footer/>
       </div>
